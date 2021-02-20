@@ -1,0 +1,30 @@
+html
+{
+	head
+	{
+		title "aieque"
+		link(href="examples/style.css" rel="stylesheet")
+	}
+
+	body
+	{
+		nav
+		{
+			p(style="font-weight: bold;") "sixten"
+			
+			p(style="flex-grow: 1") " "
+			
+			a(href="#home") "home"
+			a(href="#home") "about"
+			a(href="#home") "projects"
+			a(href="#home") "contact"
+		}
+		
+		div(class="content")
+		{
+			h2 "Hello CML!"
+			
+			p "This is a demo of my HTML-flavour, CML!"
+		}
+	}
+}

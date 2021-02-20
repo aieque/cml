@@ -1,0 +1,1 @@
+gcc -g cml.cpp -o cml

@@ -1,0 +1,25 @@
+html
+{
+	head
+	{
+		title "My title"
+	}
+
+	body
+	{
+		h1 "Simple header"
+		p "This is a simple document designed to show what CML can allow."
+		p "It is also an excecise for me, to handle file lexing and parsing."
+		p "Hope it works."
+
+		p(style = "color: blue") "Btw, I can technically add CSS right now."
+
+		br
+		a(href = "google.com" style = "color:red") "This is a test link."
+
+		div
+		{
+			p "Also, divs etc work."
+		}
+	}
+}

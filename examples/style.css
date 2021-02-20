@@ -1,0 +1,36 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	
+	font-family: sans-serif;
+}
+
+body
+{
+	background-color: #ddeeff;
+}
+
+nav
+{
+	background-color: #ffffff;
+
+	display: flex;
+	padding: 1rem;
+	
+	box-shadow: 0 1rem 3rem rgb(165, 180, 192);
+}
+
+nav a
+{
+	color: #9999ee;
+	margin: 0 1rem;
+}
+
+.content
+{
+	padding: 1rem;
+	margin: 1rem;
+
+	background-color: #ffffff;
+} 
